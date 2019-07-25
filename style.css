@@ -1,0 +1,200 @@
+body
+{
+	font-family: sans-serif;
+    background-image:url("images/bagi.jpg");
+}
+.header {
+	
+  overflow: hidden;
+  background-color: gray;
+  padding: 2px 100px 0px 10px ;
+  text-align: center;
+}
+.logo_text{
+	color:pink;
+	float:left;
+	margin-top:15px; 
+	font-size: 25px;
+}
+
+
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  margin:0px 20px 0px 20px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 30px;
+  border-radius: 10px;
+}
+
+
+
+.header a:hover {
+  background-color:black;
+  color: white;
+}
+
+.header a.active {
+  background-color:orange;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+
+h1
+{
+	color:forestgreen;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+a:hover{
+	transition:1s;
+}
+
+
+.gallery{
+	margin-left:6%; 
+	margin-right: 50px;
+
+}
+.gallery img{
+	transition:2000ms;
+	padding:10px 10px 0px 10px;
+	filter: grayscale(50%);
+
+}
+
+.gallery img:hover {
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+/*******************************************************************************************************/
+/*******************************************************************************************************/
+    
+                                          /* Pic1s.html */
+
+.front{
+
+}
+
+
+
+
+
+
+#news2{
+	position: static;
+	top:30px;
+	margin-top:30px;
+	width:75%;
+	height:auto;
+	float:left;
+	box-shadow:4px 4px 4px 4px white;
+}
+
+#news3{
+	position: static;
+	top:14px;
+	margin-top:30px;
+	width:75%;
+	height: auto;
+
+	float:left;
+	box-shadow:4px 4px 4px 4px white;
+}
+
+
+#news4,#news5,#news6,#news7{
+	margin-top:30px;
+	width:74%;
+	height:auto;
+	box-shadow:4px 4px 4px 4px white;
+}  
+
+#listright{
+	background:gray;
+	float:right;
+	width:30%;
+	
+
+}
+#listleft{
+	background:gray;
+	float:left;
+	width:30%;
+	
+}
+
+#news2data{
+
+	margin-top:10px; 
+	width:100%;
+	height:auto;
+	background: silver;
+}
+
+#leftdata{
+	float:left;
+}
+#rightdata{
+	width: 23%;
+	margin-top: 20px;
+	float:right;
+}
+
+
+
+
+
+.topics{
+	position:fixed;
+	right:8px;
+	top:68px;
+	left:77%;
+	margin-top:10px;
+	float:right;
+	width:24%;
+	height:555px;
+	box-shadow: 3px 3px 3px 6px #888;
+} 
+#topicshead{
+	margin:10px 40% 20px 30%;
+}
+.topicsdiv{
+	border-radius:8px;
+	font-size: 15px;
+	text-align: center;
+	margin:20px 10% 10px 10% ;
+	height:40px;
+	width:78%;
+	
+	background: lightsalmon;
+}   
+
+.topicsdiv a{
+	color: darkblue;
+
+	text-decoration: none;
+}                                 
+
+.topicname{
+	padding-top:4px;
+
+}
